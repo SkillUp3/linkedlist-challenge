@@ -58,7 +58,9 @@ public class Main {
         albums.get(1).addToPlayList(24, playList); // this wont be added
 
 
+
         play(playList);
+
     }
 
     private static void play(LinkedList<Song> playList) {
@@ -109,6 +111,8 @@ public class Main {
                     }
                     break;
 
+
+                    // ^ SONG ^
                 case 3:
                     if (forward) {
                         if (listIterator.hasPrevious()) {
